@@ -8,7 +8,7 @@ A fast and simple HTTPS proxy checker. It downloads 30,000+ fresh proxies, check
 - 🚀 **Multithreaded** (60 threads)
 - ⏱ **20-second timeout** per proxy
 - 🧪 **Dual checking**: `icanhazip.com` and `api.ip.sb`
-- 💾 **Saves live proxies** to `live_https_proxies_proxycap.txt` (`IP,Port,HTTPS`)
+- 💾 **Saves live proxies** to `live_https_proxies.txt` (`IP,Port`)
 - 🧹 No logging of successful checks
 - ⚠️ Only logs proxy source errors to `proxy_checker.log`
 - 📊 Real-time **progress percentage** in console
@@ -29,7 +29,7 @@ python proxy_checker.py
 
 ### 3. Output files
 
-- ✅ `live_https_proxies_proxycap.txt` — working proxies
+- ✅ `live_https_proxies.txt` — working proxies
 - ⚠️ `proxy_checker.log` — only critical loading errors (if any)
 
 ---
@@ -44,7 +44,7 @@ python proxy_checker.py
 - 🚀 **Многопоточная** проверка (60 потоков)
 - ⏱ **Таймаут 20 секунд** на прокси
 - 🧪 **Двойная проверка** через `icanhazip.com` и `api.ip.sb`
-- 💾 **Сохранение живых прокси** в `live_https_proxies_proxycap.txt` (`IP,Port,HTTPS`)
+- 💾 **Сохранение живых прокси** в `live_https_proxies.txt` (`IP,Port`)
 - 🧹 Не логирует успешные подключения
 - ⚠️ Логирует **только ошибки загрузки** в `proxy_checker.log`
 - 📊 **Процент выполнения** в режиме реального времени
@@ -65,7 +65,7 @@ python proxy_checker.py
 
 ### 3. Результирующие файлы
 
-- ✅ `live_https_proxies_proxycap.txt` — живые прокси
+- ✅ `live_https_proxies.txt` — живые прокси
 - ⚠️ `proxy_checker.log` — только ошибки получения (если есть)
 
 ## 📄 Лицензия

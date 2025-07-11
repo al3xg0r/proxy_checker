@@ -7,7 +7,7 @@ import sys
 MAX_THREADS = 60
 TIMEOUT = 20
 CHECK_URLS = ['https://icanhazip.com', 'https://api.ip.sb/ip']
-SAVE_PATH = "live_https_proxies_proxycap.txt"
+SAVE_PATH = "live_https_proxies.txt"
 LOG_FILE = "proxy_checker.log"
 
 logging.basicConfig(
