@@ -4,7 +4,7 @@ A fast and simple HTTPS proxy checker. It downloads 30,000+ fresh proxies, check
 
 ## 🔧 Features
 
-- ✅ **Only ProxyScrape** as the source (stable, large pool)
+- ✅ Stable, large pool
 - 🚀 **Multithreaded** (60 threads)
 - ⏱ **20-second timeout** per proxy
 - 🧪 **Dual checking**: `icanhazip.com` and `api.ip.sb`
@@ -40,7 +40,7 @@ python proxy_checker.py
 
 ## 🔧 Возможности
 
-- ✅ Только **ProxyScrape** как источник (большая и стабильная база)
+- ✅ Большая и стабильная база
 - 🚀 **Многопоточная** проверка (60 потоков)
 - ⏱ **Таймаут 20 секунд** на прокси
 - 🧪 **Двойная проверка** через `icanhazip.com` и `api.ip.sb`
