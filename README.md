@@ -1,6 +1,6 @@
 # HTTPS Proxy Checker
 
-A fast and simple HTTPS proxy checker using only ProxyScrape as a reliable source. It downloads 30,000+ fresh proxies, checks them via two public IP-detection services, and saves the working ones in ProxyCap-compatible format.
+A fast and simple HTTPS proxy checker. It downloads 30,000+ fresh proxies, checks them via two public IP-detection services, and saves the working ones in ProxyCap-compatible format.
 
 ## 🔧 Features
 
@@ -36,7 +36,7 @@ python proxy_checker.py
 
 # Чекер HTTPS-прокси
 
-Быстрый и простой чекер HTTPS-прокси, использующий только ProxyScrape как проверенный и стабильный источник. Загружает более 30 000 прокси, проверяет их через два IP-сервиса и сохраняет рабочие в формате ProxyCap.
+Быстрый и простой чекер HTTPS-прокси. Загружает более 30 000 прокси, проверяет их через два IP-сервиса и сохраняет рабочие в формате ProxyCap.
 
 ## 🔧 Возможности
 
